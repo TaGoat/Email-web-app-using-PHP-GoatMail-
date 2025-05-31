@@ -1,0 +1,173 @@
+<header>
+  <nav
+    id="sidebarMenu"
+    class="collapse d-lg-block sidebar collapse bg-body-tertiary"
+    style="margin-top: 55px"
+  >
+    <div class="position-sticky">
+      <div class="">
+        <ul class="nav nav-pills flex-column mb-auto ps-2">
+          <li class="mb-3">
+            <a
+              href="../Compose/compose.php"
+              class="sidebar-link compose1"
+              data-target="../Compose/compose.php"
+            >
+              <i class="fa-solid fa-pen-clip"></i>
+              <span class="">Compose</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="../inbox/index.php?page=inbox"
+              class="nav-link link-body-emphasis sidebar-link"
+              data-target="../inbox/index.php"
+              id="inbox-link"
+            >
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#inbox" />
+              </svg>
+              inbox
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="../inbox/index.php?page=stared"
+              class="nav-link link-body-emphasis sidebar-link"
+              data-target="../inbox/star.php"
+            >
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#star" />
+              </svg>
+              Stared
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="../inbox/index.php?page=sent"
+              class="nav-link link-body-emphasis sidebar-link"
+              data-target=""
+            >
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#sent" />
+              </svg>
+              Sent
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="../inbox/index.php?page=allmails"
+              class="nav-link link-body-emphasis sidebar-link"
+              data-target="../inbox/allmails.php"
+            >
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#allmail" />
+              </svg>
+              All Mails
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="../inbox/index.php?page=spam"
+              class="nav-link link-body-emphasis sidebar-link"
+              data-target="../inbox/spam.php"
+            >
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#spam" />
+              </svg>
+              Spam
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu"
+        aria-controls="sidebarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a
+        href="#"
+        class="navbar-brand ms-5 justify-content-start me-auto d-flex"
+      >
+        <img
+          src="../images/logo.png"
+          style="margin-left: 2rem"
+          width="60"
+          height="60"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav justify-content-end ms-auto me-2 mb-2 mb-lg-0 px-2"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link d-flex align-items-center"
+              href="../sign-out/sign-out.php"
+            >
+              <svg style="height: 30px; width: 30px">
+                <use xlink:href="#door-closed" />
+              </svg>
+              Sign out
+            </a>
+          </li>
+        </ul>
+        <!-- <ul
+          class="navbar-nav justify-content-end ms-auto me-2 mb-2 mb-lg-0 px-2"
+        >
+          <li class="nav-item iconbtn dropdown dropstart icon">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="../images/logo.png"
+                class="rounded-circle"
+                height="30px"
+                width="30px"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <ul class="dropdown-menu dropdown-menu1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+</header>

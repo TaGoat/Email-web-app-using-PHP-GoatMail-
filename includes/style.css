@@ -1,0 +1,171 @@
+/* color mode */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+/* header */
+/*//////////////////////////////////////////////////////////////////////////////*/
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0;
+  /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+}
+
+.compose1 {
+  text-decoration: none;
+  background-color: #00adb5;
+  border: solid #00adb5;
+  border-radius: 1rem;
+  height: 3rem;
+  color: inherit;
+  width: 100px;
+  margin-left: 60px;
+  padding: 10px;
+  padding-left: 3px;
+}
+
+.compose1:hover {
+  background-color: transparent;
+  border: solid #00adb5;
+  color: #00adb5;
+}
+
+.nav-item:hover {
+  background-color: #00adb5;
+  border: #00adb5;
+  border-radius: 2rem;
+}
+
+.nav-item:active {
+  background-color: #00adb5;
+}
+
+.search {
+  justify-content: end;
+  margin-left: auto;
+  width: 40rem;
+}
+
+.collapse.show .search {
+  justify-content: center;
+  margin: auto;
+  width: auto;
+}
+
+.collapse.show .icon {
+  justify-content: center;
+  margin: auto;
+}
+
+.dropdown-menu1 {
+  border-radius: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dropdown-item {
+  border-radius: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dropdown-item:hover {
+  background-color: #00adb5;
+}

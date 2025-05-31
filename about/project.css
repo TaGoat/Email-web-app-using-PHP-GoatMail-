@@ -1,0 +1,41 @@
+/* main  the info page */
+:root {
+  --my-color: #00adb5;
+  --gret-color: #ff0000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.main-btn {
+  background-color: #393e46;
+  color: var(--my-color);
+  font-size: 17px;
+}
+.main-btn:hover {
+  color: var(black);
+}
+.navbar {
+  background-color: var(--my-color);
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--gret-color);
+}
+.navbar .navbar-toggler {
+  color: black;
+  font-size: 25px;
+  border-color: black;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.landing {
+  background-color: var(--my-color);
+  min-height: calc(100vh - 72px);
+}
